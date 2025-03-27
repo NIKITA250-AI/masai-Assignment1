@@ -1,0 +1,15 @@
+function judgeSquareSum(k) {
+    let left = 0, right = Math.floor(Math.sqrt(k));
+
+    while (left <= right) {
+        let sumOfSquares = left * left + right * right;
+        if (sumOfSquares === k) {
+            return true;
+        } else if (sumOfSquares < k) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    return false;
+}
