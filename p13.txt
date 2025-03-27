@@ -1,0 +1,5 @@
+function reverseNumber(num){
+let reversedNum=
+parselnt(num.toString().split(").reverse().join("))
+console.log(reversedNum)
+}
