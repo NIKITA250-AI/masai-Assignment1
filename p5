@@ -1,0 +1,31 @@
+const employeeData = [
+
+{ name: "Amit", score: 75 },
+
+{ name: "Priya", score: 40 },
+
+{ name: "Rajesh", score: 85 },
+
+{ name: "Anita", score: 30 },
+
+{ name: "Suresh", score: 95 },
+
+{ name: "Rohit", score: 20 },
+
+{ name: "Neha", score: 55 },
+
+{ name: "Meera", score: 45 },
+
+{ name: "Vikram", score: 70 },
+
+{ name: "Kiran", score: 25 },
+
+];
+if(employee’s score>50)
+{
+console.log(""Productive"")
+}
+else 
+{
+console.log("employee’s score")
+}
